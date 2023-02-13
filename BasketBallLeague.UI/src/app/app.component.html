@@ -1,0 +1,6 @@
+<app-nav-bar></app-nav-bar>
+
+<div *ngIf="backgroundService.displayedBackGround" [ngClass]="{'background-image': true}"></div>
+    <div *ngIf="!backgroundService.displayedBackGround">
+      <router-outlet></router-outlet>
+</div>

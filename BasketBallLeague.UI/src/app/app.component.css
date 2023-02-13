@@ -1,0 +1,15 @@
+.background-image {
+    background-image: url('https://cdn.vox-cdn.com/thumbor/9KrX4poteCLUsHhvU2B6nsNCkPs=/0x0:1200x800/1200x900/filters:focal(513x268:705x460)/cdn.vox-cdn.com/uploads/chorus_image/image/71961415/ContendersTradeDeadline_Getty_Ringer.0.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    filter: brightness(70%);
+}
+
+.btn-nextpage-margin {
+    margin-right: 70px;
+}
+
+.btn-previouspage-margin {
+    margin-left: 70px;
+}

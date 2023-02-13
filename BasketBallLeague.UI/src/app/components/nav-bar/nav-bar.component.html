@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" (click)="hideRouterOutlets()" href="">Basketball League</a>
+        <button (click)="toggleNavbarCollapsing()" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div [class.collapse]="navbarCollapsed" class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" routerLink="/Teams"
+                    (click)="backgroundService.setDisplayedComponent(false)">Teams</a>
+                <a class="nav-link active" aria-current="page" routerLink="/Games"
+                    (click)="backgroundService.setDisplayedComponent(false)">Games</a>
+                <a class="nav-link active" aria-current="page" routerLink="/TopFiveOffensiveTeams"
+                (click)="backgroundService.setDisplayedComponent(false)">Top 5 Best offensive teams</a>
+                <a class="nav-link active" aria-current="page" routerLink="/TopFiveDefensiveTeams"
+                (click)="backgroundService.setDisplayedComponent(false)">Top 5 Best defensive teams</a>
+                <a class="nav-link active" aria-current="page" routerLink="/HighlightMatch"
+                (click)="backgroundService.setDisplayedComponent(false)">Highlight game</a>
+            </div>
+        </div>
+    </div>
+</nav>
