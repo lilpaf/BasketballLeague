@@ -21,6 +21,7 @@ Phoenix Suns | New Orleans Pelicans | 112:97
 5. Show the highlight match (Most points scored on a single match by both teams)
  
 Important notes:
-•	You can use UI components of your choice
-•	All the database queries should be in a form of SQL Server stored procedures returning the result.
-•	Stored procedures themselves can be triggered via Entity Framework or other ORM of choice.
+
+- You can use UI components of your choice.
+-	All the database queries should be in a form of SQL Server stored procedures returning the result.
+-	Stored procedures themselves can be triggered via Entity Framework or other ORM of choice.
