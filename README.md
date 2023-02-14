@@ -12,9 +12,10 @@ There is a navigation menu that allows you to choose one of the following views:
  
 1. List of all Teams (sortable/searchable is a plus)
 2. Match results in the form of:
-Home team    | Away team            | Score
---------------------------------------------------------------
-Phoenix Suns | New Orleans Pelicans | 112:97
+
+   Home team    | Away team            | Score
+
+   Phoenix Suns | New Orleans Pelicans | 112:97
  
 3. Top 5 Best offensive teams (teams who scored the maximum number of points home and away combined)
 4. Top 5 Best defensive teams (teams whose opponents scored the smallest number of points, home and away combined)
